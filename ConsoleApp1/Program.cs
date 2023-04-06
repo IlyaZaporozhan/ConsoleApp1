@@ -12,7 +12,7 @@ namespace ConsoleApp1
         {
             string s = Console.ReadLine();
             double x = double.Parse(s);
-            double F = 2 * Math.Cos(x);
+            double F = 8*(2 * Math.Sin(x)) - (2*Math.Cos(x));
             Console.WriteLine(x + " " + F);
             Console.ReadKey();
             return;
