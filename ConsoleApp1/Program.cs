@@ -10,7 +10,13 @@ namespace ConsoleApp1
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello");
+            string s = Console.ReadLine();
+            double x = double.Parse(s);
+            double F = 2 * Math.Cos(x);
+            Console.WriteLine(x + " " + F);
+            Console.ReadKey();
+            return;
+
         }
     }
 }
